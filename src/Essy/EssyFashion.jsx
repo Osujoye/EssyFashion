@@ -441,11 +441,16 @@ export default function EssyFashionHome() {
 
             <div className="mt-6">
               <a
-                href="ogbeestherchika@gmail.com"
+                href="mailto:ogbeestherchika@gmail.com"
                 className="inline-block bg-black text-white px-5 py-3 rounded-md"
               >
                 Email us
               </a>
+              <a href="telto:+234 7025532531"
+              className="ml-10 inline-block bg-black text-white px-5 py-3 rounded-md">
+              Call Us
+              </a>
+
             </div>
           </div>
 
@@ -474,7 +479,8 @@ export default function EssyFashionHome() {
             </div>
             <div className="text-right">
               <button
-                type="button"
+                type="submit"
+
                 className="bg-pink-600 text-black px-5 py-2 rounded-md"
               >
                 Send message
@@ -502,7 +508,19 @@ export default function EssyFashionHome() {
           </div>
 
           <div className="flex items-center gap-6 text-sm text-gray-600">
-            <div>Made with ❤️ in Lagos</div>
+             <h3 className="text-white font-semibold mb-4 tracking-wide">
+            Stay Connected
+          </h3>
+          <form className="flex items-center mb-5">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="w-full px-3 py-2 rounded-l-lg text-black focus:outline-none"
+            />
+            <button className="bg-white text-black px-4 py-2 rounded-r-lg font-semibold hover:bg-gray-200">
+              Subscribe
+            </button>
+          </form>
             <div className="flex space-x-5 text-lg">
               <a href="https://www.instagram.com/essyqueency?igsh=MTJsbmtpdjE1dHFjdw==">
                 <FaInstagram className="hover:text-white" />
